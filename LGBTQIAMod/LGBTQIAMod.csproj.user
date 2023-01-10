@@ -1,5 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\FusionFlux.LGBTQIAMod</OutputPath>
+    <OutputPath>/home/fusion/.steam/steam/steamapps/compatdata/3029793615/pfx/drive_c/users/steamuser/AppData/Roaming/OuterWildsModManager/OWML/Mods/FusionFlux.LGBTQIAMod</OutputPath>
   </PropertyGroup>
 </Project>

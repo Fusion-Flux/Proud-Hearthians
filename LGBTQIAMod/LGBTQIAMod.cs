@@ -1,5 +1,7 @@
-﻿using OWML.Common;
+﻿using System.Linq;
+using OWML.Common;
 using OWML.ModHelper;
+using UnityEngine;
 
 namespace LGBTQIAMod;
 
@@ -22,7 +24,12 @@ public class LGBTQIAMod : ModBehaviour
 		LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
 		{
 			if (loadScene != OWScene.SolarSystem) return;
-			ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+
+			//GameObject.Find("Player_Body/Traveller_HEA_Player_v2/Traveller_Mesh_v01:Traveller_Geo/Traveller_Mesh_v01:PlayerSuit_Body");
+			Resources.FindObjectsOfTypeAll<Material>().First(x=> x.name == "Traveller_HEA_PlayerSuit_mat").mainTexture = ModHelper.Assets.GetTexture("queer.png");
+			Resources.FindObjectsOfTypeAll<Material>().First(x=> x.name == "Traveller_HEA_PlayerSuit_mat").SetTexture("_BumpMap", ModHelper.Assets.GetTexture("queerNormal.png"));
+			//GetComponent<Renderer>().sharedMaterial.mainTexture = ModHelper.Assets.GetTexture("ourple.png");
+			
 		};
 	}
 }
