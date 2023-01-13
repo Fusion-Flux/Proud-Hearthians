@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "LGBTQIAMod.dll",
+  "filename": "ProudHearthians.dll",
   "author": "FusionFlux",
-  "name": "LGBTQIAMod",
-  "uniqueName": "FusionFlux.LGBTQIAMod",
+  "name": "Proud Hearthians",
+  "uniqueName": "FusionFlux.ProudHearthians",
   "version": "0.1.0",
   "owmlVersion": "2.8.0",
   "dependencies": []

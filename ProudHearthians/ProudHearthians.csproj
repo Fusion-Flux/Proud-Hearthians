@@ -25,6 +25,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LGBTQIAMod.csproj.user" />
+    <Content Include="ProudHearthians.csproj.user" />
   </ItemGroup>
 </Project>
