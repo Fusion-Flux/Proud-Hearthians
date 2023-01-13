@@ -28,8 +28,8 @@ public class ProudHearthians : ModBehaviour
 			var materials = Resources.FindObjectsOfTypeAll<Material>().Where(x => x.name == "Traveller_HEA_PlayerSuit_mat");
 			foreach (var material in materials)
 			{
-				material.mainTexture = ModHelper.Assets.GetTexture("queer.png");
-				material.SetTexture("_BumpMap", ModHelper.Assets.GetTexture("queerNormal.png"));
+				material.mainTexture = ModHelper.Assets.GetTexture("textures/queer.png");
+				material.SetTexture("_BumpMap", ModHelper.Assets.GetTexture("textures/queerNormal.png"));
 			}
 		};
 	}
