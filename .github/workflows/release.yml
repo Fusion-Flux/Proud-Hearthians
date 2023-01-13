@@ -11,8 +11,8 @@ on:
           type: boolean
 
 env:
-    PROJ_USERNAME: Ernesto
-    PROJ_NAME: LGBTQIAMod
+    PROJ_USERNAME: FusionFlux
+    PROJ_NAME: ProudHearthians
 
 jobs:
     pre_job:
